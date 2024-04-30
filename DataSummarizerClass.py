@@ -8,6 +8,7 @@ class DataSummarizer:
     def __init__(self, df):
         self.df = df
         self.encodedDict = {}
+        self.summary = {}
 
     def summaryOfData(self):
         print("----------------------------------------")  
@@ -45,7 +46,7 @@ class DataSummarizer:
     def encodeCategoricalColumns(self):
         for col in self.df.select_dtypes(include=['object']):
             if(col != 'What is the most important reason for your score above?' and col != 'Timestamp'):
-                self.df, self.encodingDict = self.encodingOfColumns(col)
+                self.df, self.encodedDict = self.encodingOfColumns(col)
     
     def encodingOfColumns(self, columnName):
         # check column data type if object convert to categorical
@@ -61,3 +62,71 @@ class DataSummarizer:
             self.encodedDict[columnName] = labelMapping
             # return df
         return self.df, self.encodedDict
+
+    def generateSummaryFile(self, fileName, summary):
+         # generate(summary,'FeatureDescriptiveSummary')
+        with open(fileName, 'w') as f:
+            # Column headers (adjust column widths as needed)
+            f.write(f"| Column Name | Most Frequent Value | Percentage | Missing Values |\n")
+            f.write("|" + "-" * 63 + "|\n")  # Separator line
+
+            for col, info in summary.items():
+                # Extract relevant information
+                mostFrequentValue = info["Most Frequent Value"]
+                percentage = info["Percentage"]
+                missing_values = info["Missing Values"]
+
+                # Format and write data (adjust formatting if needed)
+                f.write(f" COLUMN: {col:<20} \n MOST FREQUENT VALUE: {mostFrequentValue:<20} \n PERCENTAGE: {percentage:<15} \n  MISSING VALUES:{missing_values:<15} |\n")
+                f.write("|" + "-" * 63 + "|\n")  # Separator line
+
+    # perfoming column based summary
+    def getColumnSummary(self):
+        """
+        Provides a summary of each column in the DataFrame, including data type, missing values, most frequent value (percentage), and highlights if encoded.
+        Returns:
+            A dictionary containing summary information for each column.
+        """
+        summary = {}
+        for col in self.df.columns:
+            info = {
+                "Data Type": self.df[col].dtype,
+                "Missing Values": self.df[col].isna().sum()
+            }
+            mostFrequentInfo = self.getMostFrequentPercentage(col)
+            info.update(mostFrequentInfo)  # Add most frequent info to the dictionary
+            self.summary[col] = info
+        # return summary
+    
+    def getMostFrequentPercentage(self, col):
+        if self.df[col].dtype == 'object':
+            # For categorical columns, use value_counts
+            valueCounts = self.df[col].value_counts(normalize=True) * 100  # Calculate percentage
+            mostFrequentValue = valueCounts.idxmax()
+            mostFrequentPercentage = valueCounts.max()
+
+            # Check if encoded (based on the presence in encodingDict)
+            encoded = col in self.encodedDict
+
+            # Decode if encoded
+            if encoded:
+                decodedValue = self.encodedDict[col][mostFrequentPercentage]
+                mostFrequentValue = decodedValue
+
+            return {
+                "Most Frequent Value": mostFrequentValue,
+                "Percentage": f"{mostFrequentPercentage:.2f}%",
+                "Encoded": encoded
+            }
+        else:
+            # For numerical columns, use mode
+            most_frequent_value = self.df[col].mode().iloc[0]  # Assuming single most frequent value
+            return {
+                "Most Frequent Value": most_frequent_value,
+                "Percentage": "N/A%",  # Percentage not applicable for numerical data
+                "Encoded": False
+            }
+
+        return None  # Handle potential errors (optional)
+    
+   

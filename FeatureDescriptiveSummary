@@ -1,0 +1,287 @@
+| Column Name | Most Frequent Value | Percentage | Missing Values |
+|---------------------------------------------------------------|
+ COLUMN: Timestamp            
+ MOST FREQUENT VALUE: 27/04/2024 09:26:15  
+ PERCENTAGE: 4.35%           
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Have you fully understood the purpose of this survey and how your information will be handled? 
+ MOST FREQUENT VALUE: Yes                  
+ PERCENTAGE: 100.00%         
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Informed Consent options 
+ MOST FREQUENT VALUE: I agree to participate in the survey 
+ PERCENTAGE: 100.00%         
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: What gender do you identify as? 
+ MOST FREQUENT VALUE: Male                 
+ PERCENTAGE: 52.17%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: What is your age?    
+ MOST FREQUENT VALUE: 18 - 44 (Young Adults) 
+ PERCENTAGE: 91.30%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: What is the highest level of education you have completed? 
+ MOST FREQUENT VALUE: Certificate or Diploma 
+ PERCENTAGE: 43.48%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: What is your current work status? 
+ MOST FREQUENT VALUE: Employed             
+ PERCENTAGE: 86.96%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: How do you pay for the majority of your medical expenses? 
+ MOST FREQUENT VALUE: Private Health Insurance provided by my employer 
+ PERCENTAGE: 60.87%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: What is your average monthly household income? 
+ MOST FREQUENT VALUE: 49,999 and below     
+ PERCENTAGE: 34.78%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital should have modern, up-to-date equipment 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 69.57%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's physical facilities should be clean and visually appealing (reception, waiting area, consultation rooms, toilets, wards) 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 86.96%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees should be well-dressed and have a neat and professional appearance 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 91.30%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Materials associated with the service should be visually appealing 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 73.91%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: When a hospital employee promises to do something by a particular time, they should do it 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 65.22%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: When a patient has a problem, the hospital's employees should show a sincere interest in solving it 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 86.96%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital should provide its services at the time it promises to do 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 73.91%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital should always get things right the first time 
+ MOST FREQUENT VALUE: Agree                
+ PERCENTAGE: 43.48%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital should maintain accurate and error-free records 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 65.22%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees should tell the patient exactly when services will be performed 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 73.91%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees should provide prompt service to patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 69.57%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees should always be willing to help patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 95.65%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees should never be too busy to respond to patients' requests 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 56.52%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The behaviour and attitudes of hospital employees should instill confidence in patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 82.61%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Patients should feel safe in all their dealings with the hospital and its employees 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 78.26%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Hospital employees should be consistently courteous to patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 78.26%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Hospital employees should be knowledgeable and able to answer patients' questions 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 78.26%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital should give each patient individualised attention 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 65.22%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees should express care in their interaction with patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 86.96%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital and its employees should have the patients' best interests at heart 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 86.96%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees should understand the specific needs of each of their patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 73.91%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The operating hours of the hospital should be convenient for all its patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 73.91%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital has modern, up-to-date equipment 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 43.48%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's physical facilities are clean and visually appealing (reception, waiting area, consultation rooms, toilets, wards) 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 78.26%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees are well-dressed and have a neat and professional appearance 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 47.83%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Materials associated with the service are visually appealing 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 43.48%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: When a hospital employee promises to do something by a particular time, they do it 
+ MOST FREQUENT VALUE: Agree                
+ PERCENTAGE: 47.83%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: When a patient has a problem, the hospital's employees show a sincere interest in solving it 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 56.52%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital provides its services at the time it promises to do 
+ MOST FREQUENT VALUE: Agree                
+ PERCENTAGE: 39.13%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital always gets things right the first time 
+ MOST FREQUENT VALUE: Agree                
+ PERCENTAGE: 56.52%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital maintains accurate and error-free records 
+ MOST FREQUENT VALUE: Agree                
+ PERCENTAGE: 65.22%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees tell the patients exactly when services will be performed 
+ MOST FREQUENT VALUE: Agree                
+ PERCENTAGE: 47.83%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees provide prompt service to patients 
+ MOST FREQUENT VALUE: Agree                
+ PERCENTAGE: 47.83%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees are always willing to help patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 65.22%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees are never too busy to respond to patients' requests 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 52.17%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The behaviour and attitudes of hospital employees instill confidence in patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 69.57%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Patients feel safe in all their dealings with the hospital and its employees 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 56.52%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees are consistently courteous to patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 60.87%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees are knowledgeable and able to answer patients' questions 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 65.22%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital gives each patient individualised attention 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 60.87%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees express care in their interaction with patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 69.57%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital and its employees have the patients' best interests at heart 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 69.57%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The hospital's employees understand the specific needs of each of their patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 52.17%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: The operating hours of the hospital are convenient for all its patients 
+ MOST FREQUENT VALUE: Strongly Agree       
+ PERCENTAGE: 82.61%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Which feature is the most important to you? 
+ MOST FREQUENT VALUE: Reliability : The hospital's ability to perform the promised service dependably and accurately. 
+ PERCENTAGE: 34.78%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Which feature is the least important to you? 
+ MOST FREQUENT VALUE: Tangibles: The appearance of the hospital's facilities, equipment, personnel, and communication materials. 
+ PERCENTAGE: 69.57%          
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: Considering your overall experience at Halisi family Hospital, how likely are you to recommend Halisi Family Hospital to your family and friends? 
+ MOST FREQUENT VALUE: 10                   
+ PERCENTAGE: N/A%            
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
+ COLUMN: What is the most important reason for your score above? 
+ MOST FREQUENT VALUE: My experience        
+ PERCENTAGE: 4.35%           
+  MISSING VALUES:0               |
+|---------------------------------------------------------------|
