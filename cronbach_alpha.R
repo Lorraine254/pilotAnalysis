@@ -13,8 +13,8 @@ head(perception_data)
 my_expectation <- data.matrix(expectation_data)
 my_perception <- data.matrix(perception_data)
 
+# calcularion of reliability test
 reliability(cov(my_perception))
-
 reliability(cov(my_expectation))
 
 
